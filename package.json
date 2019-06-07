@@ -1,5 +1,5 @@
 {
-  "name": "lincolixavier-website",
+  "name": "izienglish-blog",
   "private": true,
   "scripts": {
     "build": "gridsome build",
