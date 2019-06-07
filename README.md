@@ -1,2 +1,4 @@
-# izienglish.github.io
-Izi English for All
+# LINCOLIXAVIER.COM
+
+My Personal website/blog created with GridSome/Vue.js
+
