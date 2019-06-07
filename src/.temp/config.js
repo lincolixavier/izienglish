@@ -1,7 +1,7 @@
 export default {
   "siteUrl": "",
-  "siteName": "Gridsome Blog Starter",
-  "titleTemplate": "%s - Gridsome Blog Starter",
-  "siteDescription": "A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.",
+  "siteName": "IziEnglish For All",
+  "titleTemplate": "%s - IziEnglish For All",
+  "siteDescription": "Aprenda Inglês do jeito mais easy possível.",
   "version": "0.5.4"
 }

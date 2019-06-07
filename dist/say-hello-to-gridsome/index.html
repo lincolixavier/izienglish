@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html data-html-server-rendered="true" lang="en" data-vue-tag="lang">
+  <head>
+    <title data-vue-tag="true">Say hello to Gridsome 🎉 - IziEnglish For All</title><meta data-vue-tag="true" charset="utf-8"/><meta data-vue-tag="true" name="generator" content="Gridsome v0.5.4"/><meta data-vue-tag="true" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/><meta data-vue-tag="true" data-key="description" name="description" content="Aprenda Inglês do jeito mais easy possível."/><meta data-vue-tag="true" data-key="format-detection" name="format-detection" content="telephone=no"/><meta data-vue-tag="true" name="description" content="A new static site generator baby is born. It&#x27;s highly inspired by Gatsby.js (React based) but built on top of Vue.js. We have been working on it for a year and will have a beta ready soon. You can expect this baby to grow up fast!"/><link data-vue-tag="true" rel="icon" type="image/png" sizes="16x16" href="/assets/static/favicon.ce0531f.9bb7ffa.png"/><link data-vue-tag="true" rel="icon" type="image/png" sizes="32x32" href="/assets/static/favicon.ac8d93a.9bb7ffa.png"/><link data-vue-tag="true" rel="icon" type="image/png" sizes="96x96" href="/assets/static/favicon.b9532cc.9bb7ffa.png"/><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="76x76" href="/assets/static/favicon.f22e9f3.9bb7ffa.png"/><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="152x152" href="/assets/static/favicon.62d22cb.9bb7ffa.png"/><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="120x120" href="/assets/static/favicon.1539b60.9bb7ffa.png"/><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="167x167" href="/assets/static/favicon.dc0cdc5.9bb7ffa.png"/><link data-vue-tag="true" rel="apple-touch-icon" type="image/png" sizes="180x180" href="/assets/static/favicon.7b22250.9bb7ffa.png"/><noscript data-vue-tag="true" ><style>.g-image--loading{display:none;}</style></noscript><link rel="preload" href="/assets/css/styles.2d76b2d8.css" as="style"><link rel="preload" href="/assets/js/app.ff397a9c.js" as="script"><link rel="preload" href="/assets/css/3.styles.0738bbfe.css" as="style"><link rel="preload" href="/assets/js/component--post.19e94b83.js" as="script"><link rel="prefetch" href="/assets/js/component--404.3cff424f.js"><link rel="prefetch" href="/assets/js/component--home.27768072.js"><link rel="prefetch" href="/assets/js/component--tag.6b34f90a.js"><link rel="prefetch" href="/assets/js/page-query.1a04cd62.js"><link rel="stylesheet" href="/assets/css/styles.2d76b2d8.css"><link rel="stylesheet" href="/assets/css/3.styles.0738bbfe.css">
+  </head>
+  <body data-vue-tag="">
+    <script>
+      // Add dark / light detection that runs before Vue.js load. Borrowed from overreacted.io
+      (function() {
+        window.__onThemeChange = function() {};
+        function setTheme(newTheme) {
+          window.__theme = newTheme;
+          preferredTheme = newTheme;
+          document.body.setAttribute('data-theme', newTheme);
+          window.__onThemeChange(newTheme);
+        }
+
+        var preferredTheme;
+        try {
+          preferredTheme = localStorage.getItem('theme');
+        } catch (err) { }
+
+        window.__setPreferredTheme = function(newTheme) {
+          setTheme(newTheme);
+          try {
+            localStorage.setItem('theme', newTheme);
+          } catch (err) {}
+        }
+
+        var darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        darkQuery.addListener(function(e) {
+          window.__setPreferredTheme(e.matches ? 'dark' : 'light')
+        });
+
+        setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
+      })();
+    </script>
+
+    <div id="app" data-server-rendered="true"><header class="header"><div class="header__left"><a href="/" class="logo active"><span class="logo__text">
+    ← IziEnglish For All
+  </span></a></div><div class="header__right"><button role="button" aria-label="Toggle dark/light" class="toggle-theme"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button></div></header><main class="main"><div class="post-title"><h1 class="post-title__text">
+      Say hello to Gridsome 🎉
+    </h1><div class="post-meta">
+   Posted 7. February 2019.
+   <strong>3 min read.</strong></div></div><div class="post content-box"><div class="post__header"><!----></div><div class="post__content"><p>A new static site generator baby is born. It's highly inspired by Gatsby.js (React based) but built on top of Vue.js. We have been working on it for a year and will have a beta ready soon. You can expect this baby to grow up fast!</p>
+<p>We think <strong>Gridsome</strong> is a missing piece to the Vue.js ecosystem. What Gatsby.js does for React.js is a game changer in how we build websites.  React.js is excellent, but we think Vue.js is more approachable for most web designers and devs getting started with JAMstack. Gridsome is the Vue.js alternative to Gatsby.</p>
+<p>With <strong>Gridsome</strong> you get a <strong>universal GraphQL layer</strong> for all your connected data sources. It's like a single source of truth for your website data ready to be used in any page or components. Connect to any CMS or APIs like Google Spreadsheet, Airtable, Instagram Feed, local markdown files, etc. </p>
+<p>Here is an example on how to query posts from the GraphQL layer in a page:</p>
+<pre class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Layout</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">></span></span>Latest blog posts<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">v-for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>edge in $page.allWordPressPost.edges<span class="token punctuation">"</span></span> <span class="token attr-name">:key</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>edge.node.id<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+        {{ edge.node.title }}
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Layout</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>page-query</span><span class="token punctuation">></span></span><span class="token graphql">
+<span class="token keyword">query</span> Blog <span class="token punctuation">{</span>
+  allWordPressPost <span class="token punctuation">(</span><span class="token attr-name">limit</span><span class="token punctuation">:</span> <span class="token number">5</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    edges <span class="token punctuation">{</span>
+      node <span class="token punctuation">{</span>
+        _id
+        title
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>page-query</span><span class="token punctuation">></span></span></pre>
+<p>You don't need to know GraphQL or Vue to get started with Gridsome - It's a great way to get introduced to both.</p>
+<p>The GraphQL layer and all the data can be explored in a local GraphQL playground. The playground is usually located at <code class="language-text">https://localhost:8080/___explore</code> when a Gridsome development project is running.</p>
+<h4 id="perfect-scores-on-google-lighthouse---automagically-"><a href="#perfect-scores-on-google-lighthouse---automagically-" aria-hidden="true"><span class="icon icon-link"></span></a>Perfect scores on Google Lighthouse - automagically 💚</h4>
+<p>One of the main goals of Gridsome is to make a framework that let you build websites that are optimized "out-of-the-box." It follows the <a href="https://developers.google.com/web/fundamentals/performance/prpl-pattern/" target="_blank" rel="nofollow noopener noreferrer">PRPL-pattern by Google.</a> You don't need to be a performance expert to make fast websites with Gridsome. Your site gets almost perfect scores on Google lighthouse out-of-the-box. These are some of the performance steps that Gridsome takes care of:</p>
+<ul>
+<li>Image compressing &#x26; lazy-loading ⚡️ </li>
+<li>CSS &#x26; JS minification ⚡️ </li>
+<li>Code-splitting ⚡️ </li>
+<li>HTML compressing ⚡️ </li>
+<li>Critical CSS (Plugin) ⚡️ </li>
+<li>Full PWA &#x26; Offline-support (plugin) ⚡️  </li>
+</ul>
+<h4 id="a-better-way-to-build-websites"><a href="#a-better-way-to-build-websites" aria-hidden="true"><span class="icon icon-link"></span></a>A better way to build websites</h4>
+<p>Gridsome is built for the JAMstack workflow - a new way to build websites that gives you better performance, higher security, cheaper hosting, and a better developer experience. Generate prerendered (static) pages at build time for SEO-purpose and add powerful dynamic functionality with APIs and Vue.js.</p>
+<p>We believe the SSGs / JAMstack trend is just getting started. When you have first started to make websites this way there is no way back. You feel almost "dirty" when going back to a traditional WordPress / CMS setup. </p>
+<p>Try running the new Chrome Lighthouse (Audit tab in Developer tools) on a WordPress site - It is impossible to get good scores even with the best caching plugins and hosting. With Gridsome you don't even need caching plugins. Website optimization is taken care of at build time.</p>
+<p>This is what we think is very exciting and is why we are building Gridsome. It is the <strong>perfect SPA &#x26; PWA front-end solution</strong> for any headless CMS or content APIs.</p>
+<h4 id="whats-next"><a href="#whats-next" aria-hidden="true"><span class="icon icon-link"></span></a>Whats next</h4>
+<p>In the next couple of months we're going to continue to improve the docs, create tutorials, add more source &#x26; transformer plugins and fix bugs. </p>
+<h4 id="contribute-to-gridsome"><a href="#contribute-to-gridsome" aria-hidden="true"><span class="icon icon-link"></span></a>Contribute to Gridsome</h4>
+<p>We're currently just two brothers working on this, so any contribution is very welcome. We're passionate about building a faster web and make website building fun again.</p>
+<p>You can also support us by giving <a href="https://github.com/gridsome/gridsome/stargazers" target="_blank" rel="nofollow noopener noreferrer">a GitHub star ★</a> and spread the word :)</p>
+</div><div class="post__footer"><div class="post-tags"><a href="/tag/markdown" class="post-tags__link"><span>#</span> Markdown
+		</a><a href="/tag/releases" class="post-tags__link"><span>#</span> Releases
+		</a></div></div></div><div class="post-comments"></div><div class="author post-author"><img alt="Author image" src="data:image/svg+xml,%3csvg fill='none' viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdefs%3e%3cfilter id='__svg-blur-6'%3e%3cfeGaussianBlur in='SourceGraphic' stdDeviation='5'/%3e%3c/filter%3e%3c/defs%3e%3cimage x='0' y='0' filter='url(%23__svg-blur-6)' width='180' height='180' xlink:href='data:image/png%3bbase64%2ciVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAMnElEQVR42tVaDXBU1RXO2w1oB2WKxYrYjlasVozKj6HJ7nuEhBQUkFFbmRatWutvGfCnolaiokxRitpaW39n0OLQAha1aAyCSqlE1JQWahmrDNNaRSTJ2/yZv3379vU775379uzLxuwm0GzezJn7s/fde853zj3n3LuvIBY1Hi3AE4sYIdQLMj3oD3lj9GLU2zE2hrLpkFKESKd6fVPUcFBWMV9hxReVGBPi%2biqQjd8beY6GmPfeMv49bEb0gj4fM2r8zi3FQj3GRDwAUJZ2GGUOMdh8GIgEoPlRfgwayYJogg%2bQrpSxPllW7qAvSe%2bitB2v/aCSx4xmAQAQfLovAHwLiBqln%2btT3cVoYbQPNVnxqdMcKGWex5Me9pSk%2bwAoXvDbWssba/G7cRttlCvVu9kBEDWe8U2mVwD0NADQBgB6kk1uQCTmsSxPgGq5JRUpIMzUdlzH4y31vj213AcgFuldnn4A4FtAiWduejcWiJtZEGmGiOu2x6wvtK993vc05ltyTcnToAEg9p3hlE93aO85OVOF41mPAsEHgACJ05yoL2WLKwwKP9gWoDEQX8WY69C%2bGswQXdMnRWiccT3emQ%2bmNnd6Ti6REt5IkOPDuA9RH%2bZ7e2H6gw6AYmogD94/EkLub01ZgTL/RJcHyhzWejiT9gd5C4g4HDUKcyEIfQRbzzovTOlxfwtEdCvhCfGcCrfeGnovIXsQLSBHbasQG%2bY9PZPju9S8zbG/HYKdmO5shzAAJDxlYH7oggNFfU9Hau8r7SvHdyu/V9jXVhsyAKQLpC/hjC0uYn%2bCneFuCKWlgDP6yFrzHABluiJvGAemO9nUZfZot%2bsuABVq7Wwc7RAAgA4r4sAS0V9MpDPp%2bClrRJ1BvHQ3Ful77bwGQJi%2b0uYF3ekxP4n57RYv8aHT2xi2Gi3bMJu3ALj7N6qLhMk4EvV97V7MTwjtW5729QWs/cJshc9bANIOKymBlrOHj0vhKeHBGu/w2F4zviEHQCCGnwHmvHxfHplRpywQa5Tm4vjyGgB2eCr2q738ajzg%2bDCvF/Mj%2bmMsSM7C5ycAAdPH3r9EMWWS03MtQLfbXM3rB9E/Sh6uhjQAZsDxQdCjsegnGY68Kt%2b/Uh51%2b3O4yisAhPbDrP1f9XR8Ol9x6VuV5lWu0J8nbwDIEPPPaQ7c8KjzfpOX909Iu%2bXJ5rY2nwHwQ1hE3dUZ27uNnhmfewaIGg/0J%2bbnLQA9DzvGVYmeXj/BvuAjMDKCQdJi4pQ4JAFICa%2brK7LRYKQhcMvjqOttjJvHjA9Y%2b3lxJab2rulfdBhP8aJpGR8z9oq4D3CjRn%2bdX17dCZopx2e0Be/3Iv71thW83o4dgruGwbsVjhgib/fP/HVdwVse5fgi%2bj3STxyqq7ZBBEAP3vLcmMH0E3ztlXa9bQ7Q8Q06AGbK66v0dSyotYVveTJcb5/f38NOXgKQYe%2bv4T8h0xyf42aB%2bgvs%2bIbTfC5FuMydCoI3Rf93AMzUflfCz%2bB/cYTj0%2b3WqOsM69Vf2ofqUSA4juOWdmtrqHvzluHy3%2bHDBoDJoUuEvp7X23za4746AHYzyrvp4wa8V%2bWWpXpV4ymnVjWcNK7KnFJaFTPKUr9FehL1uxTxrszM0qgmQfD51qeuP6wAZMj47pCHHTOa9ve4e%2bSl3ykrtF1CHemxXV7hOEuXOs7y5Y49c6aTiOiOjXHuGCpVHZQQJeYsdtedOi0E4V0Qksnk7KRlPYj2sebk4tV2WcXhAUBkfP71dkxeb7vm7wEg/t%2b3mRkLfRY0bTWePdH6fNk9FhgGJSxrz3tWrLzcglYtaNAyS6LeWPWOB65qT3TX/s5MAiDEALzmeM%2bUxvFFTyXLpx8eAPhLDN/hQNsvyHzfTKW8vRO2RePZE5zu1z2eWxctcJKJuNN2%2b22OOWGSY04pcWLTwLCO%2bUoiwY8l6AZ5kstX5Yw0AJKJxH7eGn9IeBY5YABWqZSVLziCju983uPddL73yPhiIu0Wl1hNc%2bcmwXwy/vZbaBcn7ObGZPvKFYmGcadabXcusZJJ27OK6ZWuNXjv6wmex7WApjlzQxBcbYG9AGCdy1dZ%2bfouzyF38fgu9%2b4hov8i%2bHFVXwCsTX1V5V9yqFueUfT1FX3cQIvRAlkRTDM%2bcbLTueJ%2bz2B/drvTWVLqJFtjjnPXnU736UVun2MnHOfT/Y41a7YThxblHHTHQDy03nRzmIU/EtScjMcXsm%2bopo81OpkvUpJTUUl/wT2i5MkKAJjJT7n0v8lRX4WhfhGQrEX5MqyjBmV2ZJTVNBadVW3t3tUCJXeYkejGlssv35G04omWK654Aw6s2pw4uaZp1qyaptlzarAd3PcAvD8H6qcQDx2rnw1zFDgZAFjJru4StgCKFn/BuGp%2b52XQm3Q8V2eQrJOwWAbv76aw0yv7HcNp34LaYLLPcnsh6N%2b5zNH83YsL1P5HOYtcCeiobP%2bjzOppPONMP98np6HiLZW0eLz2rWEdTzwZbhhzgharqNQavjFOa1tSFaofOcr/fq/7z9voQwgNmtS6Nr7khs1kV9cU9tjnuW3bfh8afNgdv712WKyyUrP%2bsVOLv1OrNZzwNa3ttttDkq/4u3Vq3xcyP3ehvovrmhzbtvjWUONpp2vEg4hg2R3COjc8X8ALaaAwqCBeV9djXHzXbm0TMb95i9u2PviQxk9HXD7WzdJisbC1d69mNzUV8nwLXJO14hqEn0RIoF1EvyUOHAjZB%2bvD9mcHQ6033FTQvXWrJ6xlHYMxczB%2bnBKUeOL6RtTXKH7cnCCZXAEL%2b7rL3463tfrjxqLc4SuRZOnzoUFBRMUEv0V9Leg0BZIwyV%2bzhj9B/6XiXeW0nkG9jvuqQbVqa2TYLkrLd/Ccj6l%2bYZF7Mectgu%2b3GdTnxJbrIUMue/YE0A8x4Whun0jzM0NzuG8Yl5O4/y7Q8aAXQY%2bDRgmA/gpaDhrLY8sUowzkI6CHJWg8Bz0XBYChedtB57LwJ6P%2bOY9dHJiDgBieMwgYvI4nnMjtMm43Y8GTAgCsZYaO4PY4HrtdzLefAAW9SeYbYHIEa2%2bLtAqU7/I8l3FbCTLZyyad0xmAq1Bv4jmmBcbeC5rXm7X1JvxXQN3EgOhbwsz8B/QlYXpf5v5firFF3Hc5t0eDPiKvz%2b%2bPDABwmtS06DsA%2bi/opYBQ3wN1go7h9kPg4zcobZTHCacdJiWATsnkLL8IgOuYoc3cPgr0ArVBewLmeCmPnSDen88aUQwfzyGrBfRNJbwA4F6eY0wA8FcYzARtQfHbLaBGrhfz2GtBMRJSCYryQrJkCXY2wtMEr4PeBymTvArIkpO7lUyYNa%2bYrwPtCzi8Daj/Scw5lk3W9x3CmQ0HNdB6cp%2bi/Bvo%2bzzfv0jLYj4C7DOu34ffdZQ/EspRvG0Q/iOclQ/AZFeyE1sG2sp9tah/G/Rj0CbBiMGae1z0jWRhbxCAkpCNAoCwsCBlbRvEHJTk7BbtOxgk5XPu4fnGgGq470bQDiHHmawcmcdkZQH72KwWYZI3QGS%2b7/FvF6hQxu3tzPwi0beQ%2b4yAo6wB/ZHrylmS//g7aCc5UjHHZqw7X7TL2MGdJbZAB%2bgJ9D3KffNAH4h3XgXdHdiuWQGgHA5Zgk2miUV%2bLkz5ANrlHKKeB30M%2bokQqJkBGB9YXGWCl4i1XmNL%2bwHoU%2bU/MD/t5YvFuJlyTkqOuG0Lrz%2bCnewyDqkxlSZzmM0u/NEpS0QCCln/JC%2bewUGqpOYp2ios/DbQajbPqNjvyhnezO%2buxzrb6DyvLIIthPoo9E1F%2bXuyLNY%2bRYNtggcS9lPeFmFh5uPxHm3fTaCzAyE1%2bxwAk2TKzqSDGiM0SxGCQtAOUBX3maAZvVjYeNBSrHFtht%2bKlNYYlMUYR/nIChE6lUAnCSEzhjhxdZZTAqQJ56XJydWBSGZwGd4fzbF%2bDegaNsn7MfY%2blFf3EnUKAmlruC/ehLK0wImT%2bApJzfcnDU7TeqAdljk77%2b3LQNeTd%2bbzQj2IQtdKSm/R9xDv97dAKlEplJpRZ5DgWoK0AG9aJiF7qw/kHF%2bQAfWTWbOr2CPrfHYYodJojHmgrzmHzBMws4c5SVoAOroXE30U9LTay3SGZ/NM0/CQeAIm9aLM5UVS4x49xWUFhaFVKmOUW0mZ/VACQBPHYz/nZy8d3CaF4rJihbrByckL56MFCKezXyUyEGqY0H5IZHxhTkIuzOkQkucgKG97Hicg537B2DU8pv9hKE8tQAl0DugNvgShOD%2bbU1M6A%2bxE/TOUZ%2bV0AZHvAAjHFRaRYRplfigfQ/kke/4rRNobGlLOjp//ASNUwTstlmzXAAAAAElFTkSuQmCC' /%3e%3c/svg%3e" width="180" data-src="/assets/static/logo.e6b6009.d8f1b3e.png" data-srcset="/assets/static/logo.e6b6009.d8f1b3e.png 180w" data-sizes="(max-width: 180px) 100vw, 180px" class="author__image g-image g-image--lazy g-image--loading"><noscript><img src="/assets/static/logo.e6b6009.d8f1b3e.png" class="author__image g-image g-image--loaded" width="180"></noscript><!----><p class="author__intro"> 
+			Aprender inglês nunca foi tão fácil! 
+ 		</p></div></main><footer class="footer"><span class="footer__copyright">Copyright © 2019. </span><span class="footer__links">Powered by <a href="//gridsome.org"> Gridsome </a></span></footer></div>
+    <script src="/assets/js/app.ff397a9c.js" defer></script><script src="/assets/js/component--post.19e94b83.js" defer></script>
+  </body>
+</html>
