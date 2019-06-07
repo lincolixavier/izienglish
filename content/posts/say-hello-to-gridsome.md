@@ -1,19 +1,22 @@
 ---
-title: Say hello to Gridsome 🎉
-date: 2019-02-07
-tags: ['Markdown', 'Releases']
+title: 'APRENDA PARA SEMPRE: VERBO TO BE 🎉 '
+date: 2019-06-07
+tags: ['verb', 'tip']
 canonical_url: false
-description: "A new static site generator baby is born. It's highly inspired by Gatsby.js (React based) but built on top of Vue.js. We have been working on it for a year and will have a beta ready soon. You can expect this baby to grow up fast!"
+description: "Sejam bem vindos ao GUIA COMPLETO DO VERBO “TO BE”"
 
 ---
 
-A new static site generator baby is born. It's highly inspired by Gatsby.js (React based) but built on top of Vue.js. We have been working on it for a year and will have a beta ready soon. You can expect this baby to grow up fast!
+Quando o assunto é aprender inglês, é quase unânime que a primeira coisa que vem na cabeça é o famoso verbo “to be”.  E esse verbinho vem aterrorizando várias pessoas desde os primeiros anos de Inglês seja nas escolas ou em cursos de idioma. 
 
-We think **Gridsome** is a missing piece to the Vue.js ecosystem. What Gatsby.js does for React.js is a game changer in how we build websites.  React.js is excellent, but we think Vue.js is more approachable for most web designers and devs getting started with JAMstack. Gridsome is the Vue.js alternative to Gatsby.
+O fato é que, o verbo “to be” é realmente importante para dar início no aprendizado do inglês pois ele é utilizado quase que o tempo inteiro na língua inglesa. Seja para falar sobre características, localização e outros casos que ele se faz presente.
 
-With **Gridsome** you get a **universal GraphQL layer** for all your connected data sources. It's like a single source of truth for your website data ready to be used in any page or components. Connect to any CMS or APIs like Google Spreadsheet, Airtable, Instagram Feed, local markdown files, etc. 
+O grande desafio para falantes da língua portuguesa é que o tal do verbo “to be” é equivalente a dois de nossos verbos. Sim, isso mesmo, um verbo do inglês tem o mesmo peso e altura de dois de nossos verbos. 
 
-Here is an example on how to query posts from the GraphQL layer in a page:
+E o problema está aí, exatamente aí.
+
+Se não for compreendido, o novo aprendiz do inglês pode ficar confuso e acabar não entendendo nada desse verbo tão simples.
+
 
 
 ```html
